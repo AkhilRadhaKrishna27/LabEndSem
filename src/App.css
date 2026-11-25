@@ -1,0 +1,62 @@
+.app {
+  text-align: center;
+  padding: 30px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #1e3a8a;
+  font-size: 36px;
+}
+
+.subtitle {
+  color: gray;
+  margin-bottom: 30px;
+}
+
+.flight-card {
+  background: white;
+  margin: 20px auto;
+  padding: 25px;
+  max-width: 700px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.flight-card h2 {
+  color: #2563eb;
+}
+
+.flight-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 25px 0;
+}
+
+.flight-info h3 {
+  color: #1e293b;
+}
+
+.flight-info p {
+  color: #64748b;
+}
+
+.price {
+  color: #16a34a !important;
+  font-size: 28px;
+}
+
+button {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
